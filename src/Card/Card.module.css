@@ -1,0 +1,105 @@
+.weatherWrapper{
+    height: 400px;
+    width: 250px;
+    margin-left: 4em;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    box-shadow: 8px 15px 10px rgba(67, 62, 68, 0.479);
+}
+
+.weatherCard{
+    height: 400px;
+    width: 250px;
+    display: block;
+}
+
+.alfCard{
+    height: 280px;
+    background-image: linear-gradient(
+        rgba(165, 140, 168, 0.514),
+        rgba(246, 241, 247, 0.479)
+    );
+}
+
+.info{
+    height: 120px;
+    display: block;
+    background-image: linear-gradient(
+        rgba(21, 4, 44, 0.959),
+        rgba(63, 40, 66, 0.945),
+        rgba(45, 18, 82, 0.76));
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.name{
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.description{
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.icon{
+    height: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+.temp{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-image: linear-gradient(
+        rgba(117, 81, 133, 0.521),
+        rgba(62, 179, 179, 0.13)
+    );
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 6px;
+    font-weight: bolder;
+}
+
+.min{
+    margin-right: 40px;
+    padding-top: 7px;
+    font-size: 20px;
+    font-display: center;
+}
+
+.max{
+    display: flex;
+    padding-top: 7px;
+    font-size: 20px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+
+.btn{
+    height: 25px;
+    width: 55px;
+    border-radius: 24px;
+    border: none;
+    background-color: #d0fdd7;
+    color:rgb(107, 112, 117);
+    font-weight: bolder;
+}
+
+.btn:hover{
+/*     background-color: #759c7a; */
+    color: black;
+}
