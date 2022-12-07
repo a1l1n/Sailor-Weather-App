@@ -5,10 +5,6 @@ import Cards from '../Cards/Cards';
 import Styles from './Home.module.css'
 import Swal from 'sweetalert2'
 
-/* PROBLEMÁTICAS QUE PRESENTA EL CÓDIGO:
-1) NO FUNCIONAN LOS ALERTS -> MANEJO DE ERRORES
-*/
-
 export default function Home(){
     const [city, setCity] = useState([]);
     const apiKey = process.env.REACT_APP_API_KEY;
