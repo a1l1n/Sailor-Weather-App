@@ -1,7 +1,7 @@
 # :last_quarter_moon_with_face: Sailor Weather App :star:
-This project it's a SPA that consumes https://openweathermap.org/api API to provide information of the weather in the city that you wanna know in real time.
+This project it's a SPA that consumes https://openweathermap.org/api API to provide information of the weather in the city that you're looking for in real time.
 
-It's all **React** and **CSS**, with **SweetAlerts** when there's no coincidence between the searching and de API info. The responsive is still in progress :relaxed: :wrench:
+It's all **React** whith **JavaScript**, **HTML** and **CSS**, and **SweetAlerts** when there's no coincidence between what you're searching and the API data. The responsive is still in progress :relaxed: :hammer_and_wrench:
 <br><br/>
 <hr>
 
