@@ -1,6 +1,5 @@
 {
-  "name": "sailor_weather_app",
-  "homepage": "https://a1l1n.github.io/Sailor-Weather-App/",
+  "name": "weatherapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
